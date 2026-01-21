@@ -57,7 +57,19 @@ The app runs **entirely locally** (except OpenAI API) with:
 
 ## Prerequisites
 
-### 1. Python
-```bash
 python --version
 # >= 3.10
+
+## How to run
+```bash
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python app/main.py
+```
+
+```bash
+cd frontend
+npm install
+npm run dev
