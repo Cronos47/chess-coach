@@ -58,7 +58,7 @@ The app runs **entirely locally** (except OpenAI API) with:
 ## Prerequisites
 
 python --version
-# >= 3.10
+# Py3 >= 3.10
 
 ## How to run
 ```bash
